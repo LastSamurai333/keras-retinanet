@@ -43,7 +43,7 @@ class Generator(keras.utils.Sequence):
     def __init__(
         self,
         transform_generator = None,
-        batch_size=4,
+        batch_size=2,
         group_method='ratio',  # one of 'none', 'random', 'ratio'
         shuffle_groups=True,
         image_min_side=800,
